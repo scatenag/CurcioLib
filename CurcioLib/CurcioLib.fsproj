@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework> 
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="CurcioLib-AddIn.dna" />
+    <Compile Include="Library1.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Excel-DNA" Version="1.5.1" />
+    <PackageReference Include="ExcelDna.AddIn" Version="1.5.1" />
+    <PackageReference Include="ExcelDna.Integration" Version="1.5.1" />
+	</ItemGroup>
+	
+  <PropertyGroup>
+    <ExcelDnaAllowPackageReferenceProjectStyle>true</ExcelDnaAllowPackageReferenceProjectStyle>
+    <RunExcelDnaSetDebuggerOptions>false</RunExcelDnaSetDebuggerOptions>
+  </PropertyGroup>
+	
+</Project>

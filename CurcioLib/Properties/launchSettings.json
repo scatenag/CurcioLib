@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CurcioLib": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+      "commandLineArgs": "C:\\Users\\guido\\Desktop\\CurcioLib\\CurcioLib\\CurcioLib\\bin\\Debug\\net472\\CurcioLib-AddIn64.xll"
+    }
+  }
+}
